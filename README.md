@@ -25,10 +25,12 @@ http://vagrantup.com
 
 ### Oracle 12cR1
 
-1. Download Database Install files (1 and 2)
+1. Download Database Install files (1 and 2) - http://www.oracle.com/technetwork/database/enterprise-edition/downloads/database12c-linux-download-1959253.html
 2. Place the zip archives in database_installer/
 
 ### Oracle 12cR1 CPU Patches
+
+http://support.oracle.com
 
 1. Download patch 17552800
 2. Download patch 6880880
