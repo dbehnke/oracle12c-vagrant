@@ -1,0 +1,32 @@
+#!/bin/bash
+#
+# Init file for Oracle database server
+#
+# chkconfig: 35 99 02
+# description: Oracle database server
+
+export ORACLE_HOME=/u01/app/oracle/product/12.1.0/db_1
+export START_COMMAND="${ORACLE_HOME}/bin/dbstart ${ORACLE_HOME}"
+export STOP_COMMAND="${ORACLE_HOME}/bin/dbshut ${ORACLE_HOME}"
+
+  
+case "$1" in
+'start')
+        sudo -Eu oracle ${START_COMMAND}
+        RETVAL=$?
+        [ "$RETVAL" = 0 ] && touch /var/lock/subsys/oracle
+        ;;
+  
+'stop')
+        sudo -Eu oracle ${STOP_COMMAND}
+        RETVAL=$?
+        [ "$RETVAL" = 0 ] && rm -f /var/lock/subsys/oracle
+        ;;
+  
+*)
+        echo "Usage: $0 { start | stop }"
+        exit 1
+        ;;
+  
+esac
+exit 0
