@@ -1,4 +1,8 @@
-#Oracle 12c Vagrant (Updated for 12.1.0.1 with 12.1.0.2 January CPU)
+#Oracle 12c Vagrant 
+
+Updated for 12.1.0.1 with 12.1.0.2 January CPU
+
+Follwing these instructions will create a VirtualBox VM, Install Oracle 12cR1 software, Patch it, and then create a container database with one pluggable database.
 
 ## Prerequisites
 
@@ -33,16 +37,26 @@ http://vagrantup.com
 
 ## Build Vagrant Box Image Using Packer
 
-TODO
+  $ cd {project root}
+  $ cd packer
+  $ ./buildbox.sh
 
 ## Import into Vagrant
 
-TODO
+  $ cd {project root}
+  $ cd packer
+  $ ./importbox.sh
 
 ## Run Vagrant Box
 
-TODO
+  $ cd {project root}
+  $ vagrant up
+  $ vagrant ssh
 
 ## Run Oracle 12c Installation Script
 
-TODO
+  [vagrant@oracle12c ~]$ sudo /vagrant/scripts/oracle12c-install.sh
+  
+## Connect to Database
+
+  Default password for sys, system is vagrant - Port 1521 - service cdb (for container), pdb (for pluggable database)
