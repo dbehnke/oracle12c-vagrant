@@ -39,25 +39,25 @@ http://support.oracle.com
 
 ## Build Vagrant Box Image Using Packer
 
-  $ cd {project root}
-  $ cd packer
-  $ ./buildbox.sh
+    $ cd {project root}
+    $ cd packer
+    $ ./buildbox.sh
 
 ## Import into Vagrant
 
-  $ cd {project root}
-  $ cd packer
-  $ ./importbox.sh
+    $ cd {project root}
+    $ cd packer
+    $ ./importbox.sh
 
 ## Run Vagrant Box
 
-  $ cd {project root}
-  $ vagrant up
-  $ vagrant ssh
+    $ cd {project root}
+    $ vagrant up
+    $ vagrant ssh
 
 ## Run Oracle 12c Installation Script
 
-  [vagrant@oracle12c ~]$ sudo /vagrant/scripts/oracle12c-install.sh
+    [vagrant@oracle12c ~]$ sudo /vagrant/scripts/oracle12c-install.sh
   
 ## Connect to Database
 
