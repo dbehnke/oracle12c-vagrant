@@ -1,4 +1,4 @@
-#Oracle 12c Vagrant
+#Oracle 12c Vagrant (Updated for 12.1.0.1 with 12.1.0.2 January CPU)
 
 ## Prerequisites
 
