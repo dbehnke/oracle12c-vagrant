@@ -61,4 +61,4 @@ http://support.oracle.com
   
 ## Connect to Database
 
-  Default password for sys, system is vagrant - Port 1521 - service cdb (for container), pdb (for pluggable database)
+  Default password for sys, system is vagrant - Port 1521 - service cdb12c (for container), pdb (for pluggable database)
