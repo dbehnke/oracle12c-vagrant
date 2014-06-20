@@ -24,13 +24,13 @@
           "modifyvm",
           "{{.Name}}",
           "--memory",
-          "480"
+          "2048"
         ],
         [
           "modifyvm",
           "{{.Name}}",
           "--cpus",
-          "1"
+          "2"
         ]
       ],
       "virtualbox_version_file": ".vbox_version",
@@ -58,8 +58,8 @@
       "vm_name": "packer-oraclelinux-6.5-x86_64",
       "vmx_data": {
         "cpuid.coresPerSocket": "1",
-        "memsize": "480",
-        "numvcpus": "1"
+        "memsize": "2048",
+        "numvcpus": "2"
       }
     }
   ],
