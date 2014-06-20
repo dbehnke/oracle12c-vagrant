@@ -1,6 +1,6 @@
 #Oracle 12c Vagrant 
 
-Updated for 12.1.0.1 with 12.1.0.1.3 April 2014 PSU
+Updated for 12.1.0.1 with 12.1.0.1.3 April 15 2014 PSU
 
 Patch 18031528: DATABASE PATCH SET UPDATE 12.1.0.1.3
 
