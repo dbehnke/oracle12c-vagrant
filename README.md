@@ -1,7 +1,9 @@
 #Oracle 12c Vagrant 
 
-Updated for 12.1.0.1 with 12.1.0.2 January CPU
+Updated for 12.1.0.1 with 12.1.0.1.3 April 2014 CPU
 
+Patch 18139660: GRID INFRASTRUCTURE SYSTEM PATCH 12.1.0.1.3
+ 
 Follwing these instructions will create a VirtualBox VM, Install Oracle 12cR1 software, Patch it, and then create a container database with one pluggable database.
 
 ## Prerequisites
@@ -32,9 +34,9 @@ http://vagrantup.com
 
 http://support.oracle.com
 
-1. Download patch 17552800
+1. Download patch 18149660
 2. Download patch 6880880
-3. Place 17552800 at patches/p17552800_121010_Linux-x86-64.zip
+3. Place 18149660 at patches/p18139660_121010_Linux-x86-64.zip
 4. Place 6880880 at patches/p6880880_121010_Linux-x86-64.zip
 
 ## Build Vagrant Box Image Using Packer
@@ -57,7 +59,7 @@ http://support.oracle.com
 
 ## Run Oracle 12c Installation Script
 
-    [vagrant@oracle12c ~]$ sudo /vagrant/scripts/oracle12c-install.sh
+    [vagrant@vagrant-ol6 ~]$ sudo /vagrant/scripts/oracle12c-install.sh
   
 ## Connect to Database
 
