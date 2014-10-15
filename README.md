@@ -4,7 +4,7 @@ Updated for 12.1.0.1 with 12.1.0.1.5 October 14 2014 PSU
 
 Patch 19121550: DATABASE PATCH SET UPDATE 12.1.0.1.5
 
-Follwing these instructions will create a VirtualBox VM, Install Oracle 12cR1 software, Patch it, and then create a container database with one pluggable database.
+Following these instructions will create a VirtualBox VM, Install Oracle 12cR1 software, Patch it, and then create a container database with one pluggable database.
 
 ## Prerequisites
 
