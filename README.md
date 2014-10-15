@@ -38,6 +38,11 @@ http://support.oracle.com
 2. Download patch 6880880
 3. Place 19121550 at patches/p19121550_121010_Linux-x86-64.zip
 4. Place 6880880 at patches/p6880880_121010_Linux-x86-64.zip
+5. Make patches archives readable by all
+
+    $ cd {project root}
+    $ cd patches
+    $ chmod gou+r *.zip
 
 ## Build Vagrant Box Image Using Packer
 
